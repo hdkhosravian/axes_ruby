@@ -1,7 +1,6 @@
 # README
 I'm trying to create a machine learning NLP project with Python, Ruby on Rails and React.
-I created this project with `AXES` name, and you can access to complete of the project with this address: [Axes World](http://www.axes.world)
- `Axes.world` ( I'm working on it, and if you haven't access to this url, please check it with this IP: 188.40.195.27, if this Ip doesn't work too please let me know: hd.khosravian@gmail.com )
+I created this project with `AXES` name, and you can access to complete of the project with this address: [Axes World](http://www.axes.world) ( I'm working on it, and if you haven't access to this url, please check it with this IP: 188.40.195.27, if this Ip doesn't work too please let me know: hd.khosravian@gmail.com )
 I'm using react on rails for this project, but because of some copyrights I had to remove the UI from this repositories, I didn't remove the base of routes and architect of React That I used in this project so you can use it if you want. You can check it here: `client/bundle/...`.
 
 # Copyright
