@@ -1,0 +1,1 @@
+json.partial! "api/v1/shared/popular_keywords", populars: @populars

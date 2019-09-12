@@ -1,0 +1,28 @@
+version: "3"
+services:
+  redis:
+    image: redis:4-alpine3.10
+    command: redis-server
+    network_mode: bridge
+  postgres:
+    image: postgres:10
+    container_name: postgres
+    env_file:
+      - docker.env
+    volumes:
+      - /tmp/postgres:/var/lib/postgresql/data
+    network_mode: bridge
+  axes_ruby:
+    build: .
+    container_name: axes_ruby
+    env_file:
+      - docker.env
+    volumes:
+      - ./log:/var/www/axes_ruby/log
+      - ./public:/var/www/axes_ruby/public
+    ports:
+      - "3003:3003"
+    external_links:
+      - redis
+      - postgres:postgres
+    network_mode: bridge

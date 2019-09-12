@@ -1,0 +1,1 @@
+json.partial! "api/v1/shared/sources_report", grouped_by_date: @grouped_by_date, presenter: @presenter, count: @count, sources: @sources

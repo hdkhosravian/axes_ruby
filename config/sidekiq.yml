@@ -1,0 +1,4 @@
+:schedule:
+  daily_train_worker:
+    every: '22h'
+    class: DailyTrainWorker

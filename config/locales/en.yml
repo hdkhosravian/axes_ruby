@@ -1,0 +1,34 @@
+en:
+  messages:
+    http:
+      _200: Ok
+      _201: Record created
+      _400: Bad request
+      _401: Access is unauthorized
+      _403: Access is forbidden
+      _404: Record not found
+      _500: Connection was lost
+
+  user:
+    sign_up:
+      successful: Your account create successful.
+      errors:
+        confirm_password: Password and confirm password is not equal!
+        password_length: Password length most be greater than 8.
+    sign_in:
+      errors:
+        not_found: Coudln't find the user.
+        invalid_email_or_password: Email or Password is not correct.
+    error:
+      access: You haven't access to this process.
+      old_password: Your password is not valid.
+  
+  profile:
+    errors:
+      keyword_count: "Our limitation right now is 5 keywords."
+
+  sources:
+    nytimes: "New York Times"
+    bbc: "BBC"
+    whashingtonpost: "Washington Post"
+    personal: "Personal"

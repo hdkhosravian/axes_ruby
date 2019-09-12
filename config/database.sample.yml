@@ -1,0 +1,24 @@
+# PostgreSQL. Versions 9.1 and up are supported.
+#
+# Configure Using Gemfile
+# gem 'activerecord-jdbcpostgresql-adapter'
+#
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  username: <%= ENV['DATABASE_USERNAME'] || Rails.application.credentials[Rails.env.to_sym][:database][:username] || postgres %>
+  password: <%= ENV['DATABASE_PASSWORD'] || Rails.application.credentials[Rails.env.to_sym][:database][:password] || postgres %>
+  host: <%= ENV.fetch("DATABASE_HOST") { 'localhost' } %>
+
+development:
+  <<: *default
+  database: axes_ruby_development
+
+test:
+  <<: *default
+  database: axes_ruby_test
+
+production:
+  <<: *default
+  database: axes_ruby_production

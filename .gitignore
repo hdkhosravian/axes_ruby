@@ -1,0 +1,40 @@
+# Ignore bundler config.
+/.bundle
+
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# Ignore uploaded files in development
+/storage/*
+!/storage/.keep
+
+/node_modules
+/yarn-error.log
+
+/public/assets
+/public/system
+.byebug_history
+
+# Backend
+/config/master.key
+/config/database.yml
+/config/storage.yml
+/config/credentials.yml.enc
+
+# UI
+/node_modules
+/yarn-error.log
+/public/packs
+/public/packs-test
+/node_modules
+yarn-debug.log*
+.yarn-integrity
+
+docker.env
+# Ignore application configuration
+/config/application.yml
+
+dump.rdb
