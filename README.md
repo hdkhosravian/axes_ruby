@@ -2,7 +2,9 @@
 I'm trying to create a machine learning NLP project with Python, Ruby on Rails and React.
 I created this project with `AXES` name, and you can access to complete of the project with this address: [Axes World](http://www.axes.world) ( I'm working on it, and if you haven't access to this url, please check it with this IP: 188.40.195.27, if this Ip doesn't work too please let me know: hd.khosravian@gmail.com )
 <br />
-I'm using react on rails for this project, but because of some copyrights I had to remove the UI from this repositories, I didn't remove the base of architect of React that I used in this project so you can use it if you want. You can check it here: `client/bundle/...`.
+I'm using `Ruby on Rails` & `React on Rails` for this project, but because of some copyrights I had to remove the UI and tests from this repositories, I didn't remove the base of architect of React that I used in this project so you can use it if you want. You can check it here: `client/bundle/...`.
+
+I have a plan to add new tests and UI to the project in the future (ASAP).
 
 # Copyright
 You can use this project if you want, but you must mention my name in your project.
