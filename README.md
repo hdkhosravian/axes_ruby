@@ -1,8 +1,8 @@
 # README
 I'm trying to create a machine learning NLP project with Python, Ruby on Rails and React.
-I created this project with `AXES` name, and you can access to complete of the project with this address: [Axes World](http://www.axes.world) ( I'm working on it, and if you haven't access to this url, please check it with this IP: 188.40.195.27, if this Ip doesn't work too please let me know: hd.khosravian@gmail.com )
+I created this project with `AXES` name, and you can access to complete of the project with this address: [Axes World](http://www.axes.world) ( I'm working on it to make it alive, so please wait for a little)
 <br />
-I'm using `Ruby on Rails` & `React on Rails` for this project, but because of some copyrights I had to remove the UI and tests from this repositories, I didn't remove the base of architect of React that I used in this project so you can use it if you want. You can check it here: `client/bundle/...`.
+I'm using `Ruby on Rails` & `React on Rails` for this project, but because of some copyrights I had to remove the UI and tests from this repositories, I didn't remove the base of the architect of React that I used in this project so you can use it if you want. You can check it here: `client/bundle/...`.
 
 I have a plan to add new tests and UI to the project in the future (ASAP).
 
@@ -31,3 +31,9 @@ then you can run server with:
 
 # Python Repository
 https://github.com/hdkhosravian/axes_python
+
+
+# Connection
+My Phone Number: +989197757642
+My Email: hd.khosravian@gmail.com
+My Linkedin: https://www.linkedin.com/in/hamid-khosravian/
