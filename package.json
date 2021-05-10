@@ -11,7 +11,7 @@
     "babel-preset-react": "^6.24.1",
     "bootstrap": "^4.3.1",
     "history": "^4.9.0",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.21",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-bootstrap-sweetalert": "^4.4.1",
