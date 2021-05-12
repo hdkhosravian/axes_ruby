@@ -29,7 +29,7 @@
     "redux-devtools-extension": "^2.13.8",
     "redux-thunk": "^2.3.0",
     "storm-react-diagrams": "^5.2.1",
-    "chart.js": "2.8.0",
+    "chart.js": "2.9.4",
     "classnames": "2.2.6",
     "moment": "2.24.0",
     "nouislider": "13.1.5",
