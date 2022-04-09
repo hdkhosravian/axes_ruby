@@ -31,7 +31,7 @@
     "storm-react-diagrams": "^5.2.1",
     "chart.js": "2.8.0",
     "classnames": "2.2.6",
-    "moment": "2.24.0",
+    "moment": "2.29.2",
     "nouislider": "13.1.5",
     "perfect-scrollbar": "1.4.0",
     "react-big-calendar": "0.21.0",
